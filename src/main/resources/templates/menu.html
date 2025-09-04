@@ -4,15 +4,25 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light bg-white py-3" th:fragment="menu">
         <div class="container px-5">
-            <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Hello Everyone It's ABHISHEK PANDEY</span></a>
+            <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary"><h1><b><i><u>ABHISHEK<br>PANDEY</u></i></b></h1></span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                    <li class="nav-item"><a class="nav-link" th:href="@{/Home}">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" th:href="@{/resume}">Resume</a></li>
-                    <li class="nav-item"><a class="nav-link" th:href="@{/projects}">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" th:href="@{/contact}">Contact</a></li>
-                </ul>
+            <br>
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                 <br>
+                 <div class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+
+                    <div> <button class="nav-item"><a class="nav-link" th:href="@{/resume}"><h1><b><i>Resume</i></b></h1></a></button></div>
+                     <br>
+                    <div> <button class="nav-item"><a class="nav-link" th:href="@{/projects}"><h1><b><i>Projects</i></b></h1></a></button></div>
+                     <br>
+                     <div><button class="nav-item"><a class="nav-link" th:href="@{/contact}"><h1><b><i>Contact</i></b></h1></a></button></div>
+                 </div>
+
+
+
+
+
+
             </div>
         </div>
     </nav>

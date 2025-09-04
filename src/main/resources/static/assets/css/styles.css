@@ -10,6 +10,41 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+navbarSupportedContent{
+color :blue;
+}
+menu{
+
+background-color: beige;
+}
+
+footer{
+
+background-color: beige;
+
+}
+header{
+
+
+
+       background-color: lightblue;
+}
+
+.nav-item{
+color:blue;
+background-color:lightgrey;
+
+}
+.nav-link{
+color:blue;
+background-color:lightgrey;
+
+}
+.navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder{
+color:blue;
+background-color:lightgrey;
+
+}
 :root {
   --bs-blue: #1e30f3;
   --bs-indigo: #6610f2;
