@@ -13,6 +13,14 @@
 navbarSupportedContent{
 color :blue;
 }
+
+*{
+
+background-color:lightcream;
+
+}
+
+
 menu{
 
 background-color: beige;
@@ -22,12 +30,6 @@ footer{
 
 background-color: beige;
 
-}
-header{
-
-
-
-       background-color: lightblue;
 }
 
 .nav-item{
